@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 const _2714b76a = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
 const _341a4cac = () => interopDefault(import('../pages/admin/index.vue' /* webpackChunkName: "pages/admin/index" */))
 const _00a8f030 = () => interopDefault(import('../pages/posts/index.vue' /* webpackChunkName: "pages/posts/index" */))
+const _ccce7c7e = () => interopDefault(import('../pages/admin/auth/index.vue' /* webpackChunkName: "pages/admin/auth/index" */))
 const _2917f0f4 = () => interopDefault(import('../pages/admin/new-post/index.vue' /* webpackChunkName: "pages/admin/new-post/index" */))
 const _5e6cb5d7 = () => interopDefault(import('../pages/admin/_postId/index.vue' /* webpackChunkName: "pages/admin/_postId/index" */))
 const _1c2e731b = () => interopDefault(import('../pages/posts/_id/index.vue' /* webpackChunkName: "pages/posts/_id/index" */))
@@ -96,6 +97,10 @@ export function createRouter() {
       path: "/posts",
       component: _00a8f030,
       name: "posts"
+    }, {
+      path: "/admin/auth",
+      component: _ccce7c7e,
+      name: "admin-auth"
     }, {
       path: "/admin/new-post",
       component: _2917f0f4,
