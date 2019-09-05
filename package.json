@@ -1,5 +1,5 @@
 {
-  "name": "First_nuxtJs_project",
+  "name": "first_nuxtjs_project",
   "version": "1.0.0",
   "description": "My supreme Nuxt.js project",
   "author": "AB",
@@ -16,5 +16,15 @@
   "devDependencies": {
     "cross-env": "^5.2.1",
     "nodemon": "^1.18.9"
-  }
+  },
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelbasset/First-nuxtJs-project.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelbasset/First-nuxtJs-project/issues"
+  },
+  "homepage": "https://github.com/abdelbasset/First-nuxtJs-project#readme"
 }
